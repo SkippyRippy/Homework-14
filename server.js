@@ -23,7 +23,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.use(methodOverride('_method'));
 
-mongoose.connect('mongodb://heroku_hwl3jfjd:dtbj253tsvcs2seet8s86poi0e@ds161059.mlab.com:61059/heroku_hwl3jfjd');
+mongoose.connect('mongodb://mongodb://skippyrippy:typhlosion234@ds349247.mlab.com:49247/heroku_07sljj11');
 var db = mongoose.connection;
 
 db.on('error', function(error) {
